@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    background: linear-gradient(pink 0%, blue 100%);
+    background-repeat: no-repeat
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+    border-color: aqua;
+    margin-left: 200;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+    fot-weight: bold;
+
+
+}
+
+h2 {
+    font-size: 20px;
+    color: #1A237E;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+
+
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.menu a {
+    color: lightpink;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+
+#picture {
+    width: auto;
+    height: 300px;
+    border-radius: 0%;
+
+    margin: 20px;
+}
+
+.inspiration {
+    background: #373B44;
+    /* fallback for old browsers */
+
+    background: linear-gradient(purple, green);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 20px;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+
+#contact a {
+    font-size: 30px !important;
+    font-family: 'Courgette', cursive !important;
+
+}
+
+#contact {
+    background: linear-gradient(teal, yellow);
+
+    padding-top: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+
+}
